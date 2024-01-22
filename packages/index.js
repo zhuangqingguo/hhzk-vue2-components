@@ -1,6 +1,6 @@
 // 导入组件,可有多个
 // 菜单icons
-import './assets/icons/index'
+import { menusNames } from './assets/icons/index'
 import MenusIcon from './menus-icon/index.js'
 
 // 把组件保存到一个数组中,可有多个
@@ -22,7 +22,7 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue)
 }
 
-export { MenusIcon }
+export { MenusIcon, menusNames }
 
 export default {
   // 导出的对象必须具备一个 install 方法，才能被 Vue.use() 方法安装

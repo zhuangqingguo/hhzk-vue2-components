@@ -19,8 +19,6 @@ module.exports = {
   },
 
   chainWebpack: config => {
-    config.resolve.alias.set('@$', resolve('packages')).set('@assets', resolve('packages/assets'))
-
     //配置svg
     const svgRule = config.module.rule('svg')
     svgRule.exclude.add(resolve('packages/assets/icons')).end()

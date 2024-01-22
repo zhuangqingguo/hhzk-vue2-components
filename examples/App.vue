@@ -3,10 +3,10 @@
 </template>
 
 <script>
-  // import { TestButton } from '../packages'
+  import { MenusIcon } from '../packages'
   export default {
     name: 'App',
-    // components: { TestButton }
+    components: { MenusIcon },
 
     mounted() {
       setTimeout(() => {

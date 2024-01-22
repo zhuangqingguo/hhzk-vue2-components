@@ -2,8 +2,8 @@
 import Vue from 'vue'
 import App from './App.vue'
 
-import components from '../packages'
-Vue.use(components)
+// import components from '../packages'
+// Vue.use(components)
 
 Vue.config.productionTip = false
 
